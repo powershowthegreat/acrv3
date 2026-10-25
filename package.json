@@ -1,0 +1,17 @@
+{
+  "name": "acrv3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --test-scheduled",
+    "logs": "wrangler tail"
+  },
+  "dependencies": {
+    "@jellycade/script": "^1.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "wrangler": "^4.0.0"
+  }
+}

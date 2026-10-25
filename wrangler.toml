@@ -1,0 +1,13 @@
+name = "acrv3"
+main = "index.js"
+compatibility_date = "2026-10-24"
+
+[triggers]
+crons = ["*/2 * * * *"]
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
